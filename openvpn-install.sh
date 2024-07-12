@@ -426,6 +426,9 @@ resolv-retry infinite
 nobind
 persist-key
 persist-tun
+route-nopull
+route 10.8.0.0 255.255.255.0
+route 10.27.0.0 255.255.0.0
 remote-cert-tls server
 auth SHA512
 ignore-unknown-option block-outside-dns
